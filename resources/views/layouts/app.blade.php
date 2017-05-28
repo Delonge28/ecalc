@@ -70,9 +70,16 @@
                 </div>
             </div>
         </nav>
+        <!-- sidebar content -->
+        <div id="sidebar" class="col-md-4">
+            @include('includes.sidebar')
+        </div>
 
         @yield('content')
+
+
     </div>
+
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
